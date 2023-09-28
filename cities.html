@@ -42,7 +42,6 @@
       cursor: pointer;
     }
 
-    /* Style the table */
     .table {
       width: 100%;
       border-collapse: collapse;
@@ -58,19 +57,16 @@
       text-align: left;
     }
 
-    /* Style the table rows */
     .table tr {
       border-bottom: 1px solid #ddd;
       background-color: #f2f2f2;
     }
 
-    /* Style table cells */
     .table th,
     .table td {
       padding: 8px;
     }
 
-    /* Highlight table cells on hover */
     .table tr:hover {
       background-color: #ddd;
     }
@@ -78,6 +74,8 @@
 </head>
 
 <body>
+  <p>The row with city names breaks first. Because col-md is a bootstrap class it is used for medium screen size
+    devices.</p>
   <div class="container">
     <h1>Visit cities with Rakshitha Boddireddy</h1>
     <div class="row">
@@ -158,8 +156,43 @@
       </tbody>
     </table>
   </div>
-  <p>The row with city names breaks first. Because col-md is a bootstrap class it is used for medium screen size
-    devices.</p>
+  <p>Buttons</p><br>
+  <div class="d-flex">
+    
+    <button type="button" class="btn btn-secondary">B</button>
+    <button type="button" class="btn btn-secondary mx-2">O</button>
+    <button type="button" class="btn btn-secondary">D</button>
+    <button type="button" class="btn btn-secondary mx-2">D</button>
+    <button type="button" class="btn btn-secondary">I</button>
+    <button type="button" class="btn btn-secondary mx-2">R</button>
+</div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <span class="navbar-brand">Button Groups</span>
+    </div>
+</nav>
+
+<div class="container mt-4">
+    <div class="btn-toolbar" role="toolbar" aria-label="Button Toolbar">
+        
+        <div class="btn-group me-2" role="group" aria-label="Success Buttons">
+            <button type="button" class="btn btn-success">B</button>
+            <button type="button" class="btn btn-success">O</button>
+            <button type="button" class="btn btn-success">D</button>
+        </div>
+
+
+        <div class="btn-group me-2" role="group" aria-label="Alert Buttons">
+            <button type="button" class="btn btn-warning">D</button>
+            <button type="button" class="btn btn-warning">I</button>
+        </div>
+
+        <div class="btn-group" role="group" aria-label="Danger Buttons">
+            <button type="button" class="btn btn-danger">R</button>
+        </div>
+    </div>
+</div>
+  
 </body>
 
 </html>
