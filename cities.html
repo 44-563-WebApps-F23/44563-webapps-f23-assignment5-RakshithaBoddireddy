@@ -74,8 +74,37 @@
 </head>
 
 <body>
-  <p>The row with city names breaks first. Because col-md is a bootstrap class it is used for medium screen size
-    devices.</p>
+ 
+
+  <!-- Your page content here -->
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="#">A Few Cities</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="basic.html">Basic</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="advanced.html">Advanced</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+
   <div class="container">
     <h1>Visit cities with Rakshitha Boddireddy</h1>
     <div class="row">
@@ -95,6 +124,8 @@
       <div class="col-md">Rajamundry</div>
     </div>
   </div>
+  <p>The row with city names breaks first. Because col-md is a bootstrap class it is used for medium screen size
+    devices.</p>
   <div class="image-container">
     <img src="Delhi.jpg" alt="Delhi" width="400" height="500">
     <img src="Bombay.jpg" alt="Bombay" width="400" height="500">
@@ -158,51 +189,50 @@
   </div>
   <p>Buttons</p><br>
   <div class="d-flex">
-    
+
     <button type="button" class="btn btn-secondary">B</button>
     <button type="button" class="btn btn-secondary mx-2">O</button>
     <button type="button" class="btn btn-secondary">D</button>
     <button type="button" class="btn btn-secondary mx-2">D</button>
     <button type="button" class="btn btn-secondary">I</button>
     <button type="button" class="btn btn-secondary mx-2">R</button>
-</div>
+  </div>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-        <span class="navbar-brand">Button Groups</span>
+      <span class="navbar-brand">Button Groups</span>
     </div>
-</nav>
+  </nav>
 
-<div class="container mt-4">
+  <div class="container mt-4">
     <div class="btn-toolbar" role="toolbar" aria-label="Button Toolbar">
-        
-        <div class="btn-group me-2" role="group" aria-label="Success Buttons">
-            <button type="button" class="btn btn-success">B</button>
-            <button type="button" class="btn btn-success">O</button>
-            <button type="button" class="btn btn-success">D</button>
-        </div>
+
+      <div class="btn-group me-2" role="group" aria-label="Success Buttons">
+        <button type="button" class="btn btn-success">B</button>
+        <button type="button" class="btn btn-success">O</button>
+        <button type="button" class="btn btn-success">D</button>
+      </div>
 
 
-        <div class="btn-group me-2" role="group" aria-label="Alert Buttons">
-            <button type="button" class="btn btn-warning">D</button>
-            <button type="button" class="btn btn-warning">I</button>
-        </div>
+      <div class="btn-group me-2" role="group" aria-label="Alert Buttons">
+        <button type="button" class="btn btn-warning">D</button>
+        <button type="button" class="btn btn-warning">I</button>
+      </div>
 
-        <div class="btn-group" role="group" aria-label="Danger Buttons">
-            <button type="button" class="btn btn-danger">R</button>
-        </div>
+      <div class="btn-group" role="group" aria-label="Danger Buttons">
+        <button type="button" class="btn btn-danger">R</button>
+      </div>
     </div>
     <div class="dropdown" Style="position: relative; display: inline-block;">
       <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-          Dropdown
+        Dropdown
       </button>
       <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <li><a class="dropdown-item" href="basic.html">Basic Page</a></li>
-          <li><a class="dropdown-item" href="advanced.html">Advanced Page</a></li>
+        <li><a class="dropdown-item" href="basic.html">Basic Page</a></li>
+        <li><a class="dropdown-item" href="advanced.html">Advanced Page</a></li>
       </div>
     </div>
   </div>
-</div>
-  
-</body>
+  </div>
 
+</body>
 </html>
